@@ -1,4 +1,4 @@
-file = open("puzzle.txt", "r")
+file = open("./1/puzzle.txt", "r")
 data = [line.strip().split() for line in file]
 
 list1 = [int(row[0]) for row in data]
